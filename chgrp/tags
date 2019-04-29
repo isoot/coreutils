@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CLOSEDIR	chgrp.c	/^#define CLOSEDIR(/;"	d	file:
+NLENGTH	chgrp.c	/^#define NLENGTH(/;"	d	file:
+change_dir_group	chgrp.c	/^int change_dir_group(char *dir, int group, struct stat *statp)$/;"	f
+change_file_group	chgrp.c	/^int change_file_group(char *file, int group)$/;"	f
+changes_only	chgrp.c	/^static int changes_only;$/;"	v	file:
+describe_change	chgrp.c	/^void describe_change(char *file, int changed)$/;"	f
+force_silent	chgrp.c	/^static int force_silent;$/;"	v	file:
+groupname	chgrp.c	/^static char *groupname;$/;"	v	file:
+long_options	chgrp.c	/^static struct option long_options[] =$/;"	v	typeref:struct:option	file:
+main	chgrp.c	/^int main(int argc, char **argv)$/;"	f
+myisnumber	chgrp.c	/^int myisnumber(char *str)$/;"	f
+parse_group	chgrp.c	/^void parse_group(char *name, int *g)$/;"	f
+program_name	chgrp.c	/^char *program_name;$/;"	v
+recurese	chgrp.c	/^static int recurese;$/;"	v	file:
+savedir	chgrp.c	/^char *savedir(char *dir, unsigned int name_size)$/;"	f
+usage	chgrp.c	/^void usage()$/;"	f
+verbose	chgrp.c	/^static int verbose;$/;"	v	file:
