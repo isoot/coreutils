@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CLOSEDIR	savedir.h	/^#define CLOSEDIR(/;"	d
+MODE_COPY_EXISTING	modechange.h	/^#define MODE_COPY_EXISTING /;"	d
+MODE_INVALID	modechange.h	/^#define MODE_INVALID /;"	d
+MODE_MASK_EQUALS	modechange.h	/^#define MODE_MASK_EQUALS /;"	d
+MODE_MASK_MINUS	modechange.h	/^#define MODE_MASK_MINUS /;"	d
+MODE_MASK_PLUS	modechange.h	/^#define MODE_MASK_PLUS /;"	d
+MODE_MEMORY_EXHAUSTED	modechange.h	/^#define MODE_MEMORY_EXHAUSTED /;"	d
+MODE_X_IF_ANY_X	modechange.h	/^#define MODE_X_IF_ANY_X /;"	d
+affected	modechange.h	/^    unsigned short affected;$/;"	m	struct:mode_change
+change_dir_mode	chmod.c	/^int change_dir_mode(char *dir, struct mode_change *changes, struct stat *statp)$/;"	f
+change_file_mode	chmod.c	/^int change_file_mode(char *file, struct mode_change *changes)$/;"	f
+changes_only	chmod.c	/^static int changes_only;$/;"	v	file:
+describe_change	chmod.c	/^void describe_change(char *file, unsigned short mode, int changed)$/;"	f
+filemodestring	filemode.c	/^void filemodestring(struct stat *statp, char *str)$/;"	f
+flags	modechange.h	/^    char flags;$/;"	m	struct:mode_change
+force_silent	chmod.c	/^static int force_silent;$/;"	v	file:
+ftypelet	filemode.c	/^static char ftypelet(mode_t bits)$/;"	f	file:
+isodigit	modechange.c	/^#define isodigit(/;"	d	file:
+main	chmod.c	/^int main(int argc, char **argv)$/;"	f
+mode_adjust	modechange.c	/^unsigned short mode_adjust(unsigned int oldmode, register struct mode_change *changes)$/;"	f
+mode_change	modechange.h	/^struct mode_change$/;"	s
+mode_compile	modechange.c	/^struct mode_change* mode_compile(register char *mode_string, unsigned int masked_ops)$/;"	f
+mode_free	modechange.c	/^void mode_free(register struct mode_change *changes)$/;"	f
+mode_string	filemode.c	/^void mode_string(unsigned short mode, char *str)$/;"	f
+next	modechange.h	/^    struct mode_change *next;$/;"	m	struct:mode_change	typeref:struct:mode_change::mode_change
+oatoi	modechange.c	/^static int oatoi(char *s)$/;"	f	file:
+op	modechange.h	/^    char op;$/;"	m	struct:mode_change
+program_name	chmod.c	/^char *program_name;$/;"	v
+recurse	chmod.c	/^static int recurse;$/;"	v	file:
+rwx	filemode.c	/^static void rwx(unsigned short bits, char *chars)$/;"	f	file:
+savedir	savedir.c	/^char *savedir(char *dir, unsigned int name_size)$/;"	f
+setst	filemode.c	/^static void setst(unsigned short bits, char *chars)$/;"	f	file:
+talloc	modechange.c	/^#define talloc(/;"	d	file:
+usage	chmod.c	/^void usage()$/;"	f
+value	modechange.h	/^    unsigned short value;$/;"	m	struct:mode_change
+verbose	chmod.c	/^static int verbose;$/;"	v	file:
