@@ -12,6 +12,7 @@ MODE_MASK_MINUS	modechange.h	/^#define MODE_MASK_MINUS /;"	d
 MODE_MASK_PLUS	modechange.h	/^#define MODE_MASK_PLUS /;"	d
 MODE_MEMORY_EXHAUSTED	modechange.h	/^#define MODE_MEMORY_EXHAUSTED /;"	d
 MODE_X_IF_ANY_X	modechange.h	/^#define MODE_X_IF_ANY_X /;"	d
+NLENGTH	savedir.h	/^#define NLENGTH(/;"	d
 affected	modechange.h	/^    unsigned short affected;$/;"	m	struct:mode_change
 change_dir_mode	chmod.c	/^int change_dir_mode(char *dir, struct mode_change *changes, struct stat *statp)$/;"	f
 change_file_mode	chmod.c	/^int change_file_mode(char *file, struct mode_change *changes)$/;"	f
