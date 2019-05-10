@@ -1,3 +1,3 @@
 # coreutils
 
-gun/utils 学习
+gun/utils
